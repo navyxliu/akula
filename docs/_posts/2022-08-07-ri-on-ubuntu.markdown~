@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Install Ruby docs on Ubuntu 20.04"
+date:   2022-08-07 22:20:11 -0700
+categories: ruby
+---
+Ubuntu 20.04 comes with Ruby2.7. However, it doesn't install ruby documentations by default. As a result, developers stumble on `Nothing known about File` when they use **ri** query standard classes and methods. eg. 
+{highlight}
